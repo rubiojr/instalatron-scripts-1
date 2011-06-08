@@ -2,9 +2,6 @@
 - :image: instalatron_rec_2011-06-06_1427/screen_1.png
   :sequence: <Enter>
   :name: bootloader
-#- :image: instalatron_rec_2011-06-06_1427/screen_2.png
-#  :sequence: <Enter>
-#  :name: booting
 - :image: instalatron_rec_2011-06-06_1427/screen_3.png
   :sequence:
     - <Tab>
@@ -16,6 +13,9 @@
 - :image: instalatron_rec_2011-06-06_1427/screen_5.png
   :sequence: <Enter>
   :name: keyboard select
+- :image: init_partition_table.png
+  :name: init partition table
+  :sequence: <tab><Enter>
 - :image: instalatron_rec_2011-06-06_1427/screen_6.png
   :sequence: ''
   :name: searching installs
