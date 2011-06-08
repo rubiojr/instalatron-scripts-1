@@ -1,0 +1,100 @@
+--- 
+- :image: instalatron_rec_2011-06-06_1427/screen_1.png
+  :sequence: <Enter>
+  :name: bootloader
+- :image: instalatron_rec_2011-06-06_1427/screen_2.png
+  :sequence: <Enter>
+  :name: booting
+- :image: instalatron_rec_2011-06-06_1427/screen_3.png
+  :sequence:
+    - <Tab>
+    - <Enter>
+  :name: cd found
+- :image: instalatron_rec_2011-06-06_1427/screen_4.png
+  :sequence: <Enter>
+  :name: welcome
+- :image: instalatron_rec_2011-06-06_1427/screen_5.png
+  :sequence: <Enter>
+  :name: keyboard select
+- :image: instalatron_rec_2011-06-06_1427/screen_6.png
+  :sequence: ''
+  :name: searching installs
+- :image: instalatron_rec_2011-06-06_1427/screen_7.png
+  :sequence: <Enter>
+  :name: install or upgrade
+- :image: instalatron_rec_2011-06-06_1427/screen_8.png
+  :sequence: 
+    - <Tab>
+    - <Down>
+    - <Tab>
+    - <Tab>
+    - <Tab>
+    - <Enter>
+  :name: install type
+- :image: instalatron_rec_2011-06-06_1427/screen_9.png
+  :sequence: 
+    - <Tab>
+    - <Tab>
+    - <Tab>
+    - <Tab>
+    - <Tab>
+    - <Spacebar>
+    - <Tab>
+    - <Tab>
+    - <Tab>
+    - <Enter>
+  :name: partitioning
+- :image: instalatron_rec_2011-06-06_1427/screen_10.png
+  :sequence: 
+    - <Tab>
+    - <Enter>
+  :name: remove all partitions
+- :image: instalatron_rec_2011-06-06_1427/screen_11.png
+  :sequence: <Enter>
+  :name: networking
+- :image: instalatron_rec_2011-06-06_1427/screen_12.png
+  :sequence: 
+    - <Tab>
+    - <Enter>
+  :name: dhcp warning
+- :image: instalatron_rec_2011-06-06_1427/screen_13.png
+  :sequence: <Enter>
+  :name: timezone
+- :image: instalatron_rec_2011-06-06_1427/screen_14.png
+  :sequence: 
+    - a 
+    - b
+    - i
+    - q
+    - u
+    - o 
+    - <Tab>
+    - a 
+    - b 
+    - i
+    - q
+    - u
+    - o
+    - <Tab> 
+    - <Tab> 
+    - <Tab> 
+    - <Enter>
+  :name: root password
+- :image: instalatron_rec_2011-06-06_1427/screen_15.png
+  :sequence: 
+    - <Tab>
+    - <Tab>
+    - <Down>
+    - <Down>
+    - <Spacebar>
+    - <Tab>
+    - <Tab>
+    - <Tab>
+    - <Enter>
+  :name: select components
+- :image: instalatron_rec_2011-06-06_1427/screen_16.png
+  :sequence: <Enter>
+  :name: begin install
+- :image: instalatron_rec_2011-06-06_1427/screen_17.png
+  :sequence: <Enter>
+  :name: installing
