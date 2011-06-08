@@ -11,6 +11,9 @@
 - :image: screen_4.png
   :sequence: <Enter>
   :name: keyboard select
+- :image: init_partition_table.png
+  :sequence: <Tab><enter>
+  :name: init partition table
 - :image: screen_6.png
   :sequence: <tab><down><tab><tab><tab><enter>
   :name: install type
