@@ -77,7 +77,7 @@
     - <Tab> 
     - <Enter>
   :name: root password
-- :image: instalatron_rec_2011-06-06_1427/screen_15.png
+- :image: select_components.png
   :sequence: 
     - <Tab>
     - <Tab>

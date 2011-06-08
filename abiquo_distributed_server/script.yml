@@ -35,11 +35,11 @@
 - :image: screen_12.png
   :sequence: abiquo<tab>abiquo<tab><tab><tab><enter>
   :name: root password
-- :image: screen_13.png
+- :image: select_components.png
   :sequence: <tab><tab><down><down><down><spacebar><tab><tab><tab><enter>
   :name: select components
 - :image: screen_14.png
-  :sequence: <enter>
+  :sequence: <tab><spacebar><tab><tab><tab><tab><enter>
   :name: distributed install
 - :image: screen_15.png
   :sequence: <enter>
