@@ -22,7 +22,7 @@
   :sequence: <Tab><Enter>
 - :image: shots/screen_8.png
   :name: 'networking'
-  :sequence: <tab><tab><tab><enter><tab><tab><down><tab>10.60.20.49<tab>24<tab><tab><tab><tab><enter>abiquo-rs<tab>10.60.20.1<tab>10.60.1.4<tab><tab><tab><tab><enter>
+  :sequence: <tab><tab><tab><enter><tab><tab><down><tab>10.60.20.49<tab>24<tab><tab><tab><tab><enter>abiquo-ciab<tab>10.60.20.1<tab>10.60.1.4<tab><tab><tab><tab><enter>
 - :image: shots/screen_10.png
   :name: 'timezone'
   :sequence: <Enter>
