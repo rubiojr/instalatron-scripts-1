@@ -33,7 +33,7 @@
   :sequence: abiquo<tab>abiquo<tab><tab><tab><enter>
   :name: root password
 - :image: select_components.png
-  :sequence: <tab><tab><down><down><spacebar><tab><tab><tab><enter>
+  :sequence: <tab><tab><down><down><spacebar><tab><tab><tab><tab><down><down><down><tab><down><spacebar><tab><tab><tab><enter>
   :name: select components
 - :image: screen_15.png
   :sequence: <enter>
