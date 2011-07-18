@@ -31,24 +31,7 @@
   :sequence: <Enter>
 - :image: shots/screen_11.png
   :name: 'root password'
-  :sequence: 
-    - a 
-    - b
-    - i
-    - q
-    - u
-    - o 
-    - <Tab>
-    - a 
-    - b 
-    - i
-    - q
-    - u
-    - o
-    - <Tab> 
-    - <Tab> 
-    - <Tab> 
-    - <Enter>
+  :sequence: <%= ScriptConfig[:root_password] %><Tab><%= ScriptConfig[:root_password] %><Tab><Tab><Tab><Enter>
 - :image: shots/screen_12.png
   :name: 'begin install'
   :sequence: <Enter>
