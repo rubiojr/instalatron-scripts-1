@@ -24,22 +24,19 @@
   :sequence: <tab><enter>
   :name: warning remove all partitions
 - :image: networking.png
-  :sequence: <enter>
+  :sequence: <tab><tab><tab><enter><tab><tab><down><tab><%= ScriptConfig[:server_ip] %><tab><%= ScriptConfig[:netmask] %><tab><tab><tab><tab><enter><%= ScriptConfig[:hostname] %><tab><%= ScriptConfig[:gateway] %><tab><%= ScriptConfig[:dns_server] %><tab><tab><tab><tab><enter>
   :name: networking
-- :image: dhcp_warning.png
-  :name: 'dhcp warning'
-  :sequence: <Tab><Enter>
 - :image: screen_11.png
   :sequence: <Enter>
   :name: timezone
 - :image: screen_12.png
-  :sequence: abiquo<tab>abiquo<tab><tab><tab><enter>
   :name: root password
+  :sequence: <%= ScriptConfig[:root_password] %><Tab><%= ScriptConfig[:root_password] %><Tab><Tab><Tab><Enter>
 - :image: select_components.png
   :sequence: <tab><down><tab><down><down><down><spacebar><tab><tab><tab><enter>
   :name: select components
 - :image: cloud_node.png
-  :sequence: <tab>10.60.1.1:/opt/vm_repository<tab>10.60.1.1<tab><tab><tab><enter>
+  :sequence: <tab><%= ScriptConfig[:nfs_server] %>:/opt/vm_repository<tab><%= ScriptConfig[:remote_services] %><tab><tab><tab><enter>
   :name: cloud node
 - :image: screen_15.png
   :sequence: <enter>
