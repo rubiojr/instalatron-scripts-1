@@ -24,7 +24,7 @@
   :sequence: <tab><enter>
   :name: warning remove all partitions
 - :image: networking.png
-  :sequence: <tab><tab><tab><enter><tab><tab><down><tab>10.60.20.49<tab>24<tab><tab><tab><tab><enter>abiquo-monolithic<tab>10.60.20.1<tab>10.60.1.4<tab><tab><tab><tab><enter>
+  :sequence: <tab><tab><tab><enter><tab><tab><down><tab><%= ScriptConfig[:server_ip] %><tab><%= ScriptConfig[:netmask] %><tab><tab><tab><tab><enter><%= ScriptConfig[:hostname] %><tab><%= ScriptConfig[:gateway] %><tab><%= ScriptConfig[:dns_server] %><tab><tab><tab><tab><enter>
   :name: networking
 - :image: screen_11.png
   :sequence: <Enter>
