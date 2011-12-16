@@ -1,0 +1,40 @@
+--- 
+- :image: shots/screen_1.png
+  :name: 'bootloader'
+  :sequence: <Enter>
+- :image: shots/screen_2.png
+  :name: 'cd detect'
+  :sequence: <Tab><Enter>
+- :image: shots/screen_3.png
+  :name: 'welcome'
+  :sequence: <Enter>
+- :image: shots/screen_4.png
+  :name: 'keyboard select'
+  :sequence: <Enter>
+- :image: init_partition_table.png
+  :sequence: <tab><Enter>
+  :name: init partition table
+- :image: shots/screen_6.png
+  :name: 'install type'
+  :sequence: <Enter>
+- :image: shots/screen_7.png
+  :name: 'warning hardrive erase'
+  :sequence: <Tab><Enter>
+- :image: shots/screen_8.png
+  :name: 'networking'
+  :sequence: <tab><tab><tab><enter><tab><tab><down><tab><%= ScriptConfig[:server_ip] %><tab><%= ScriptConfig[:netmask] %><tab><tab><tab><tab><enter><%= ScriptConfig[:hostname] %><tab><%= ScriptConfig[:gateway] %><tab><%= ScriptConfig[:dns_server] %><tab><tab><tab><tab><enter>
+- :image: shots/screen_10.png
+  :name: 'timezone'
+  :sequence: <Enter>
+- :image: shots/screen_11.png
+  :name: 'root password'
+  :sequence: <%= ScriptConfig[:root_password] %><Tab><%= ScriptConfig[:root_password] %><Tab><Tab><Tab><Enter>
+- :image: shots/screen_12.png
+  :name: 'begin install'
+  :sequence: <Enter>
+- :image: shots/screen_13.png
+  :name: 'installing'
+  :sequence: ''
+- :image: shots/screen_14.png
+  :name: 'finished install'
+  :sequence: <Enter>
