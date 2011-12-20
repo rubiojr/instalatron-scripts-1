@@ -1,6 +1,6 @@
 --- 
 - :image: screen_1.png
-  :sequence: linux http://mirror.bcn.abiquo.com/updates-dev.img<enter>
+  :sequence: <%= ScriptConfig[:bootloader_args]%>
   :name: bootloader
 - :image: screen_2.png
   :sequence: <tab><enter>
@@ -39,8 +39,8 @@
   :sequence: <tab><down><spacebar><tab><tab><tab><tab><enter>
   :name: distributed install
 - :image: rs_configuration.png
-  :sequence: <tab>10.60.20.47:/opt/vm_repository<tab>10.60.20.45<tab><tab><tab><enter>
   :name: rs configuration
+  :sequence: <tab><tab><%= ScriptConfig[:nfs_url] %><tab><%= ScriptConfig[:server_ip] %><tab><%= ScriptConfig[:datacenter_id] %><tab><tab><tab><enter>
 - :image: begin_install.png
   :sequence: <enter>
   :name: begin install

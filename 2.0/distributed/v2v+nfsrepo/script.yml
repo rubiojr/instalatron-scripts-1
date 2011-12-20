@@ -33,14 +33,11 @@
   :sequence: abiquo<tab>abiquo<tab><tab><tab><enter>
   :name: root password
 - :image: select_components.png 
-  :sequence: <tab><tab><down><down><down><spacebar><tab><tab><tab><enter>
+  :sequence: <tab><tab><down><down><down><spacebar><tab><tab><tab><tab><down><down><down><tab><down><down><spacebar><tab><tab><tab><enter>
   :name: select components
 - :image: distributed-install.png
   :sequence: <tab><down><down><spacebar><tab><tab><tab><enter>
   :name: distributed install
-- :image: v2v_configuration.png
-  :sequence: <tab><tab><%= ScriptConfig[:nfs_url] %><tab><%= ScriptConfig[:server_ip] %><tab><%= ScriptConfig[:datacenter_id] %><tab><tab><tab><enter>
-  :name: V2V services configuration
 - :image: begin_install.png
   :sequence: <enter>
   :name: begin install

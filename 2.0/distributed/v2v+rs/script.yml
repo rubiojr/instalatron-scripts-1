@@ -1,6 +1,6 @@
 --- 
 - :image: screen_1.png
-  :sequence: linux updates=http://mirror.bcn.abiquo.com/updates-dev.img<enter>
+  :sequence: <%= ScriptConfig[:bootloader_args] %>
   :name: bootloader
 - :image: screen_2.png
   :sequence: <tab><enter>
@@ -12,7 +12,7 @@
   :sequence: <Enter>
   :name: keyboard select
 - :image: init_partition_table.png
-  :sequence: <Tab><enter>
+  :sequence: <tab><Enter>
   :name: init partition table
 - :image: screen_6.png
   :sequence: <tab><down><tab><tab><tab><enter>
@@ -23,8 +23,8 @@
 - :image: screen_8.png
   :sequence: <tab><enter>
   :name: warning remove all partitions
-- :image: screen_9.png
-  :sequence: <tab><tab><tab><enter><tab><tab><down><tab>10.60.20.47<tab>24<tab><tab><tab><tab><enter>abiquo-v2v<tab>10.60.20.1<tab>10.60.1.4<tab><tab><tab><tab><enter> 
+- :image: networking.png
+  :sequence: <tab><tab><tab><enter><tab><tab><down><tab>10.60.20.46<tab>24<tab><tab><tab><tab><enter>abiquo-rs-v2v<tab>10.60.20.1<tab>10.60.1.4<tab><tab><tab><tab><enter>
   :name: networking
 - :image: screen_11.png
   :sequence: <Enter>
@@ -32,15 +32,15 @@
 - :image: screen_12.png
   :sequence: abiquo<tab>abiquo<tab><tab><tab><enter>
   :name: root password
-- :image: select_components.png 
+- :image: select_components.png
   :sequence: <tab><tab><down><down><down><spacebar><tab><tab><tab><enter>
   :name: select components
 - :image: distributed-install.png
-  :sequence: <tab><down><down><spacebar><tab><tab><tab><enter>
+  :sequence: <tab><down><spacebar><tab><spacebar><tab><tab><tab><enter>
   :name: distributed install
-- :image: v2v_configuration.png
+- :image: rs_configuration.png
+  :name: rs configuration
   :sequence: <tab><tab><%= ScriptConfig[:nfs_url] %><tab><%= ScriptConfig[:server_ip] %><tab><%= ScriptConfig[:datacenter_id] %><tab><tab><tab><enter>
-  :name: V2V services configuration
 - :image: begin_install.png
   :sequence: <enter>
   :name: begin install
