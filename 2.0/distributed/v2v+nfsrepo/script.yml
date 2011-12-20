@@ -38,6 +38,9 @@
 - :image: distributed-install.png
   :sequence: <tab><down><down><spacebar><tab><tab><tab><enter>
   :name: distributed install
+- :image: v2v_configuration.png
+  :sequence: <tab><tab><%= ScriptConfig[:server_ip] %><tab><%= ScriptConfig[:datacenter_id] %><tab><tab><tab><enter>
+  :name: V2V services configuration
 - :image: begin_install.png
   :sequence: <enter>
   :name: begin install
