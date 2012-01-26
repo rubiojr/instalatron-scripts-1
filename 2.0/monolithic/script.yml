@@ -1,6 +1,6 @@
 --- 
 - :image: screen_1.png
-  :sequence: linux updates=http://mirror.bcn.abiquo.com/updates-dev.img<enter>
+  :sequence: <enter>
   :name: bootloader
 - :image: screen_2.png
   :sequence: <tab><enter>
