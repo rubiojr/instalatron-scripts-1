@@ -6,4 +6,5 @@ ScriptConfig.create do
   gateway '10.60.20.1'
   dns_server '10.60.1.4'
   nfs_repo '10.60.1.225'
+  bootloader_args ENV['ABI_BOOTLOADER_ARGS']
 end

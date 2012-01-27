@@ -1,7 +1,7 @@
 --- 
 - :image: screen_1.png
-  :sequence: <enter>
   :name: bootloader
+  :sequence: <%= ScriptConfig[:bootloader_args] %><enter>
 - :image: screen_2.png
   :sequence: <tab><enter>
   :name: cd found
