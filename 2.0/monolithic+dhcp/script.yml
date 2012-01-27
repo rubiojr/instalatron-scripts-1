@@ -1,0 +1,55 @@
+--- 
+- :image: screen_1.png
+  :sequence: <enter>
+  :name: bootloader
+- :image: screen_2.png
+  :sequence: <tab><enter>
+  :name: cd found
+- :image: screen_3.png
+  :sequence: <Enter>
+  :name: welcome
+- :image: screen_4.png
+  :sequence: <Enter>
+  :name: keyboard select
+- :image: init_partition_table.png
+  :sequence: <tab><Enter>
+  :name: init partition table
+- :image: screen_6.png
+  :sequence: <tab><down><tab><tab><tab><enter>
+  :name: install type
+- :image: screen_7.png
+  :sequence: <tab><tab><tab><tab><tab><spacebar><tab><tab><tab><enter>
+  :name: partitioning
+- :image: screen_8.png
+  :sequence: <tab><enter>
+  :name: warning remove all partitions
+- :image: networking.png
+  :sequence: <enter>
+  :name: networking
+- :image: dhcp-warning.png
+  :sequence: <tab><enter>
+  :name: dhcp warning
+- :image: screen_11.png
+  :sequence: <Enter>
+  :name: timezone
+- :image: screen_12.png
+  :sequence: abiquo<tab>abiquo<tab><tab><tab><enter>
+  :name: root password
+- :image: select_components.png
+  :sequence: <tab><tab><down><down><spacebar><tab><tab><tab><enter>
+  :name: select components
+- :image: abiquo-password.png
+  :sequence: abiquo<tab>abiquo<tab><tab><tab><enter>
+  :name: Abiquo Password
+- :image: abiquo-nfs-config.png
+  :sequence: <tab><tab><%= ScriptConfig[:nfs_repo]%><tab><tab><tab><enter>
+  :name: Abiquo NFS Config
+- :image: screen_15.png
+  :sequence: <enter>
+  :name: begin install
+- :image: screen_16.png
+  :sequence: <Enter>
+  :name: installing
+- :image: screen_17.png
+  :sequence: <enter>
+  :name: reboot
