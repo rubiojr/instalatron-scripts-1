@@ -5,6 +5,6 @@ ScriptConfig.create do
   hostname 'abiquo-mono'
   gateway '10.60.20.1'
   dns_server '10.60.1.4'
-  nfs_repo '10.60.1.225'
+  nfs_repo '10.60.1.225:/opt/vm_repository'
   bootloader_args ENV['ABI_BOOTLOADER_ARGS']
 end
