@@ -29,6 +29,9 @@
 - :image: shots/screen_11.png
   :name: 'root password'
   :sequence: <%= ScriptConfig[:root_password] %><Tab><%= ScriptConfig[:root_password] %><Tab><Tab><Tab><Enter>
+- :image: abiquo-password.png
+  :sequence: abiquo<tab>abiquo<tab><tab><tab><enter>
+  :name: Abiquo Password
 - :image: shots/screen_12.png
   :name: 'begin install'
   :sequence: <Enter>
