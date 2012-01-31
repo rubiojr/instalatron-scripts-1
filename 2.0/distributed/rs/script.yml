@@ -40,7 +40,7 @@
   :name: distributed install
 - :image: rs_configuration.png
   :name: rs configuration
-  :sequence: <tab><tab><%= ScriptConfig[:nfs_url] %><tab><%= ScriptConfig[:server_ip] %><tab><%= ScriptConfig[:datacenter_id] %><tab><tab><tab><enter>
+  :sequence: <tab><tab><%= ScriptConfig[:nfs_url] %><tab><%= ScriptConfig[:abiquo_server_ip] %><tab><%= ScriptConfig[:datacenter_id] %><tab><tab><tab><enter>
 - :image: begin_install.png
   :sequence: <enter>
   :name: begin install
