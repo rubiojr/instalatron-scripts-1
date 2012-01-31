@@ -1,6 +1,10 @@
 ScriptConfig.create do 
-  server_ip '10.0.0.1'
-  nfs_url '10.0.0.1:/opt/vm_repository'
+  nfs_url '10.60.1.43:/opt/vm_repository'
+  abiquo_server_ip '10.60.1.40'
+  host_ip '10.60.1.42'
+  host_mask '24'
+  host_gateway '10.60.1.4'
+  host_nameserver '10.60.1.4'
   datacenter_id 'Abiquo'
-  bootloader_args 'linux http://mirror.bcn.abiquo.com/updates-dev.img<enter>'
+  bootloader_args "#{ENV['ABI_BOOTLOADER_ARGS']}"
 end
