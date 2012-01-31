@@ -1,6 +1,6 @@
 --- 
 - :image: screen_1.png
-  :sequence: linux updates=http://mirror.bcn.abiquo.com/updates-dev.img<enter>
+  :sequence: <%= ScriptConfig[:bootloader_args] %><enter>
   :name: bootloader
 - :image: screen_2.png
   :sequence: <tab><enter>
@@ -24,7 +24,7 @@
   :sequence: <tab><enter>
   :name: warning remove all partitions
 - :image: networking.png
-  :sequence: <tab><tab><tab><enter><tab><tab><down><tab>10.60.20.45<tab>24<tab><tab><tab><tab><enter>abiquo-server<tab>10.60.20.1<tab>10.60.1.4<tab><tab><tab><tab><enter>
+  :sequence: <tab><tab><tab><enter><tab><tab><down><tab><%= ScriptConfig[:host_ip] %><tab><%= ScriptConfig[:host_mask] %><tab><tab><tab><tab><enter>abiquo-server<tab><%= ScriptConfig[:host_gateway] %><tab><%= ScriptConfig[:host_nameserver] %><tab><tab><tab><tab><enter>
   :name: networking
 - :image: screen_11.png
   :sequence: <Enter>
