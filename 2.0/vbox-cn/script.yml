@@ -1,6 +1,6 @@
 --- 
 - :image: screen_1.png
-  :sequence: <enter>
+  :sequence: <%= ScriptConfig[:bootloader_args] %><enter>
   :name: bootloader
 - :image: screen_2.png
   :sequence: <tab><enter>
