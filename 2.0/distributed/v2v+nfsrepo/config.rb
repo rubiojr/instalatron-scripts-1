@@ -5,5 +5,5 @@ ScriptConfig.create do
   host_gateway '10.60.1.4'
   host_nameserver '10.60.1.4'
   datacenter_id 'Abiquo'
-  bootloader_args "#{ENV[ABI_BOOTLOADER_ARGS]}"
+  bootloader_args "#{ENV['ABI_BOOTLOADER_ARGS']}"
 end
